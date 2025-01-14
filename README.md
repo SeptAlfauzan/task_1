@@ -1,16 +1,32 @@
 # task_1
 
-A new Flutter project.
+Repository dari projek task 1, yakni slicing design UI dari figma ke Flutter
 
-## Getting Started
+Pada projek ini menggunakan module based architecture, pemilihan module based architecture sendiri berdasarkan dari pengalaman pribadi bahwa ketika codebase aplikasi mulai besar dan mempunyai fitur yang mulai banyak, jika projek menggunakan layer based architecture maka akan kesusahan untuk memanage codebase dari projek tersebut.
 
-This project is a starting point for a Flutter application.
+berikut visualisasi tree folder projek ini
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+root_dir
+└───lib
+-----└───src
+----------├───modules
+----------│ ├───common
+----------│ │ ├───domain
+----------│ │ │ └───entities
+----------│ │ └───presentation
+----------│ │ └───widget
+----------│ │ └───atoms
+----------│ ├───extensions
+----------│ └───home
+----------│ ├───data
+----------│ │ └───repositories
+----------│ ├───domain
+----------│ │ ├───entities
+----------│ │ └───repositories
+----------│ └───presentation
+----------│ └───widgets
+----------│ ├───atoms
+----------│ ├───molecules
+----------│ └───organism
+----------├───ui
+----------└───utils
