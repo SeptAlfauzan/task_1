@@ -32,3 +32,4 @@ root_dir
         ├───ui
         └───utils
 ```
+* Catatan tambahan, dikarenakan saya tidak dapat menemukan jenis icon yang mirip dengan icon bottom bar yang ada pada file Figma. Saya memakai asset berupa gambar dari hasil export asset dari file Figma yang diberikan. 
