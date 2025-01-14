@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:task_1/src/modules/common/domain/entities/bottombar_menu.dart';
-import 'package:task_1/src/modules/common/presentation/widget/atoms/bottom_nav_bar.dart';
+import 'package:task_1/src/common/domain/entities/bottombar_menu.dart';
+import 'package:task_1/src/common/presentation/widget/atoms/bottom_nav_bar.dart';
 import 'package:task_1/src/modules/home/presentation/home_view.dart';
 import 'package:task_1/src/ui/colors.dart';
 import 'package:task_1/src/ui/theme.dart';

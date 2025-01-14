@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_1/src/modules/extensions/list_widget_extension.dart';
+import 'package:task_1/src/extensions/list_widget_extension.dart';
 import 'package:task_1/src/ui/colors.dart';
 
 class Indicators extends StatelessWidget {

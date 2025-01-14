@@ -1,4 +1,3 @@
-
 class BottombarMenu {
   final String label;
   final String iconUrl;
