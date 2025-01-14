@@ -6,27 +6,29 @@ Pada projek ini menggunakan module based architecture, pemilihan module based ar
 
 berikut visualisasi tree folder projek ini
 
+```shell
 root_dir
 └───lib
------└───src
-----------├───modules
-----------│ ├───common
-----------│ │ ├───domain
-----------│ │ │ └───entities
-----------│ │ └───presentation
-----------│ │ └───widget
-----------│ │ └───atoms
-----------│ ├───extensions
-----------│ └───home
-----------│ ├───data
-----------│ │ └───repositories
-----------│ ├───domain
-----------│ │ ├───entities
-----------│ │ └───repositories
-----------│ └───presentation
-----------│ └───widgets
-----------│ ├───atoms
-----------│ ├───molecules
-----------│ └───organism
-----------├───ui
-----------└───utils
+    └───src
+        ├───modules
+        │   ├───common
+        │   │   ├───domain
+        │   │   │   └───entities
+        │   │   └───presentation
+        │   │       └───widget
+        │   │           └───atoms
+        │   ├───extensions
+        │   └───home
+        │       ├───data
+        │       │   └───repositories
+        │       ├───domain
+        │       │   ├───entities
+        │       │   └───repositories
+        │       └───presentation
+        │           └───widgets
+        │               ├───atoms
+        │               ├───molecules
+        │               └───organism
+        ├───ui
+        └───utils
+```
